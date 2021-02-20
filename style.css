@@ -9,6 +9,10 @@ header h1{
 }
 section{
     margin: auto;
+    width:100%;
+}
+section article{
+    padding: 0%;
 }
 header{
     background-color: azure;
