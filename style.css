@@ -1,5 +1,6 @@
 body{
-    background-color: beige;
+    font-family:Helvetica;
+    background-color: #f6f4d2;
     padding:0;
     margin:0 ;
 }
@@ -8,40 +9,76 @@ h1{
 }
 header h1{
     text-align: left;
+    position: relative;
+    left: 2%;
+    display: inline;
+}
+header ul{
+    display: inline;
+    position: relative;
+    left: 50%;
+    text-decoration: none;
+    font-size: 150%;
+}
+header ul li{
+    display: inline;
+    position: relative;
+    top: -6px;
+    padding: 10px;
+    background-color: #cbdfbd;
+}
+header ul li:hover{
+    background-color: #f6f4d2;
+    transition: background-color 0.3s;
 }
 h2{
+    text-align: center;
+    font-size: 180%;
+    font-weight: 900;
+}
+h3{
     text-align: center;
 }
 section{
     width:100%;
-    background-color: thistle;
+    height: 100%;
+    background-color: #cbdfbd;
     padding:0%;
     margin:auto;
 }
 section section{
     margin: auto;
+    height: 100%;
     width: 80%;
     align-self: center;
-    background-color: whitesmoke;
+    background-color: #f6f4d2;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    row-gap: 2px;
-    column-gap: 2px;
+    row-gap: 5px;
+    column-gap: 5px;
     padding: 5px;
     border-radius: 15px;
 }
 section section article{
-    background-color: yellow;
+    background-color: #f6f4d2;
     border: groove black 1px;
     display: inline-block;
     margin: auto;
     border-radius: 10px;
+    height: 100%;
 }
 section section article a{
+    display: block;
+    position: relative;
+    left: 70%;
+    top:2px;
+    width: 30%;
+    height: 40px;
     text-align: center;
-    background-color:skyblue;
+    background-color:#f19c79;
     text-decoration: none;
+    border-bottom-right-radius:10px ;
 
 }
 section section article img {
@@ -52,5 +89,10 @@ header{
     position: relative;
     margin-bottom: 0%;
     width: 100%;
-    background-color: azure;
+    background-color: #cbdfbd;
+}
+hr{
+    border: 1px solid #f6f4d2;
+    width: 80%;
+    margin-top: 0;
 }
